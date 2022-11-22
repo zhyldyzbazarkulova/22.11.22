@@ -4,20 +4,23 @@
 body{
   margin: 0;
   
-}
+  }
 main{
   display: flex;
-  
+  flex-wrap: wrap;
+
 }
 header{
  background-color:aqua;
-
+flex:1 1 100%
 }
 aside{
   background-color: cadetblue;
+  flex:0 0 250px;
 }
 article{
   background-color: bisque;
+  flex:1 1 0 ;
 }
 
   
